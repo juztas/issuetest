@@ -1,6 +1,6 @@
 # API Endpoints Report
 
-**Generated at:** 2026-02-11 13:02 UTC
+**Generated at:** 2026-02-11 17:26 UTC
 
 **Sites tested:** 127.0.0.1_8000, iri-dev.ppg.es.net, esnet-west.sdn-sense.net, api.iri.nersc.gov
 
@@ -108,7 +108,7 @@
 | POST /api/v1/compute/status/{resource_id} | ![][badge-pass] | ![][badge-pass] | ![][badge-pass] | ![][badge-pass] |
 | POST /api/v1/filesystem/compress/{resource_id} | ![][badge-pass] | — | — | ![][badge-pass] |
 | POST /api/v1/filesystem/cp/{resource_id} | ![][badge-pass] | — | — | ![][badge-pass] |
-| POST /api/v1/filesystem/extract/{resource_id} | ![][badge-pass] | — | — | ![][badge-fail] |
+| POST /api/v1/filesystem/extract/{resource_id} | ![][badge-pass] | — | — | ![][badge-pass] |
 | POST /api/v1/filesystem/mkdir/{resource_id} | ![][badge-pass] | — | — | ![][badge-pass] |
 | POST /api/v1/filesystem/mv/{resource_id} | ![][badge-pass] | — | — | ![][badge-pass] |
 | POST /api/v1/filesystem/symlink/{resource_id} | ![][badge-pass] | — | — | ![][badge-pass] |
