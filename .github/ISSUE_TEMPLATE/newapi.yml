@@ -24,7 +24,7 @@ body:
     id: api_name
     attributes:
       label: API name
-      placeholder: Example: Job Management API
+      placeholder: "Example: Job Management API"
     validations:
       required: true
 
@@ -117,7 +117,7 @@ body:
     attributes:
       label: Implementation level
       description: Required, Optional, or Conditional (include capability requirements if conditional).
-      placeholder: Example: Conditional — required if facility advertises DPU capability
+      placeholder: "Example: Conditional — required if facility advertises DPU capability"
     validations:
       required: true
 
@@ -152,7 +152,7 @@ body:
     attributes:
       label: Proposal authors / maintainers
       description: Names of responsible individuals or teams.
-      placeholder: @username1, @username2
+      placeholder: "@username1, @username2"
     validations:
       required: true
 
