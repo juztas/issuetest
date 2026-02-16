@@ -21,6 +21,7 @@ body:
         ## Basic information
 
   - type: input
+    id: api_name
     attributes:
       label: API name
       placeholder: Example: Job Management API
@@ -28,6 +29,7 @@ body:
       required: true
 
   - type: textarea
+    id: api_description
     attributes:
       label: Summary
       description: Brief description of what the API should do and why it is needed.
@@ -89,6 +91,7 @@ body:
 
 
   - type: textarea
+    id: capabilities
     attributes:
       label: Key capabilities, features, performance requirements, and interactions
       description: List the main functionality that this API must provide. Describe as much detail as possible, including any specific operations, data models, security, query parameters, performance requirements, or interactions with other APIs. This will help evaluators understand the scope and requirements of the API.
@@ -102,6 +105,7 @@ body:
         ## Implementation status
 
   - type: textarea
+    id: existing_impl
     attributes:
       label: Existing implementations
       description: List facilities that implement or prototyped this API. Write "None" if not yet implemented.
@@ -110,6 +114,7 @@ body:
       required: true
 
   - type: textarea
+    id: implementation_level
     attributes:
       label: Implementation level
       description: Required, Optional, or Conditional (include capability requirements if conditional).
@@ -123,6 +128,7 @@ body:
         ## Justification
 
   - type: textarea
+    id: justification
     attributes:
       label: Why is this API needed?
       description: Describe the use cases and problems addressed.
@@ -130,6 +136,7 @@ body:
       required: true
 
   - type: textarea
+    id: alternatives
     attributes:
       label: Alternatives considered, and why they were rejected
       description: Existing APIs, Tools, and approaches considered to solve this. Write "N/A" if none.
@@ -142,6 +149,7 @@ body:
         ## Contacts
 
   - type: textarea
+    id: contacts
     attributes:
       label: Proposal authors / maintainers
       description: Names of responsible individuals or teams.
