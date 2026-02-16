@@ -69,7 +69,6 @@ body:
         - label: I confirm that a pull request with the detailed specification and proposal will be submitted as part of this process.
           required: true
 
-# Will you be able to provide a reference Python reference implementation and demo adapter expansion for the IRI API, based on the defined specification, that can be used for testing and validation purposes? 
   - type: checkboxes
     id: impl_commit
     attributes:
