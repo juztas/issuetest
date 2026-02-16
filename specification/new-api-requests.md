@@ -63,7 +63,7 @@ Typical uses:
 
 Requirements:
 
-* Use the following form to submit a request and fill out all details. [Submit new request](https://example.com/api-proposal-guidelines).
+* Use the following form to submit a request and fill out all details. [Submit new request](https://github.com/doe-iri/iri-facility-api-docs/issues/new?template=newapi.yml).
 * Create a pull request to the sandbox directory with details related to the new API: document, proposal, or design document for this API.
 
 ---
